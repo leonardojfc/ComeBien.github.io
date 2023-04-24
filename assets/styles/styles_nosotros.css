@@ -1,0 +1,73 @@
+body{
+    font-family: Verdana;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    display: flex;
+    height: 70px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: #00B050;
+}
+
+.cards{
+    display: flex ;
+    background-color: #CBFFA5;
+
+}
+.tajeta{
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 100%;
+    background: #20be09;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+
+}
+.tajeta:hover{
+    box-shadow: 5px 5px 20px lawngreen;
+    transform: translateY(-3%);
+}
+.tajeta img{
+    height: 180px;
+    width: 100%;
+    image-resolution: normal ;
+    text-align: center;
+
+}
+.cards .tajeta .contenido{
+    padding: 0 15px 15px;
+    text-align: justify;
+    color: white;
+}
+
+footer{
+    display: flex;
+    height: 70px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
